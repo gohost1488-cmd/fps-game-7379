@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: fps-game-7379-svc
+spec:
+  selector:
+    app: fps-game-7379
+  ports:
+  - port: 80
+    targetPort: 5000
